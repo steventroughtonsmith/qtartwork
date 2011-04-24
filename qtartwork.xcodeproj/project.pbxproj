@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B02F0B451363ADF700B1A3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F0B441363ADF700B1A3A2 /* Foundation.framework */; };
+		B02F0B481363ADF800B1A3A2 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B02F0B471363ADF800B1A3A2 /* main.mm */; };
+		B02F0B4C1363ADF800B1A3A2 /* qtartwork.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B02F0B4B1363ADF800B1A3A2 /* qtartwork.1 */; };
+		B02F0B531363AF9B00B1A3A2 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F0B521363AF9B00B1A3A2 /* QTKit.framework */; };
+		B02F0B551363AFA000B1A3A2 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F0B541363AFA000B1A3A2 /* QuickTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B02F0B3E1363ADF700B1A3A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B02F0B4C1363ADF800B1A3A2 /* qtartwork.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B02F0B401363ADF700B1A3A2 /* qtartwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = qtartwork; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02F0B441363ADF700B1A3A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B02F0B471363ADF800B1A3A2 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		B02F0B4A1363ADF800B1A3A2 /* qtartwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qtartwork-Prefix.pch"; sourceTree = "<group>"; };
+		B02F0B4B1363ADF800B1A3A2 /* qtartwork.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = qtartwork.1; sourceTree = "<group>"; };
+		B02F0B521363AF9B00B1A3A2 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		B02F0B541363AFA000B1A3A2 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02F0B3D1363ADF700B1A3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02F0B551363AFA000B1A3A2 /* QuickTime.framework in Frameworks */,
+				B02F0B531363AF9B00B1A3A2 /* QTKit.framework in Frameworks */,
+				B02F0B451363ADF700B1A3A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02F0B351363ADF700B1A3A2 = {
+			isa = PBXGroup;
+			children = (
+				B02F0B461363ADF700B1A3A2 /* qtartwork */,
+				B02F0B431363ADF700B1A3A2 /* Frameworks */,
+				B02F0B411363ADF700B1A3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B02F0B411363ADF700B1A3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02F0B401363ADF700B1A3A2 /* qtartwork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02F0B431363ADF700B1A3A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02F0B541363AFA000B1A3A2 /* QuickTime.framework */,
+				B02F0B521363AF9B00B1A3A2 /* QTKit.framework */,
+				B02F0B441363ADF700B1A3A2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02F0B461363ADF700B1A3A2 /* qtartwork */ = {
+			isa = PBXGroup;
+			children = (
+				B02F0B471363ADF800B1A3A2 /* main.mm */,
+				B02F0B4B1363ADF800B1A3A2 /* qtartwork.1 */,
+				B02F0B491363ADF800B1A3A2 /* Supporting Files */,
+			);
+			path = qtartwork;
+			sourceTree = "<group>";
+		};
+		B02F0B491363ADF800B1A3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02F0B4A1363ADF800B1A3A2 /* qtartwork-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02F0B3F1363ADF700B1A3A2 /* qtartwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02F0B4F1363ADF800B1A3A2 /* Build configuration list for PBXNativeTarget "qtartwork" */;
+			buildPhases = (
+				B02F0B3C1363ADF700B1A3A2 /* Sources */,
+				B02F0B3D1363ADF700B1A3A2 /* Frameworks */,
+				B02F0B3E1363ADF700B1A3A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qtartwork;
+			productName = qtartwork;
+			productReference = B02F0B401363ADF700B1A3A2 /* qtartwork */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02F0B371363ADF700B1A3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+				ORGANIZATIONNAME = "High Caffeine Content";
+			};
+			buildConfigurationList = B02F0B3A1363ADF700B1A3A2 /* Build configuration list for PBXProject "qtartwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B02F0B351363ADF700B1A3A2;
+			productRefGroup = B02F0B411363ADF700B1A3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02F0B3F1363ADF700B1A3A2 /* qtartwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02F0B3C1363ADF700B1A3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02F0B481363ADF800B1A3A2 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B02F0B4D1363ADF800B1A3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B02F0B4E1363ADF800B1A3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B02F0B501363ADF800B1A3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qtartwork/qtartwork-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B02F0B511363ADF800B1A3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qtartwork/qtartwork-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02F0B3A1363ADF700B1A3A2 /* Build configuration list for PBXProject "qtartwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02F0B4D1363ADF800B1A3A2 /* Debug */,
+				B02F0B4E1363ADF800B1A3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02F0B4F1363ADF800B1A3A2 /* Build configuration list for PBXNativeTarget "qtartwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02F0B501363ADF800B1A3A2 /* Debug */,
+				B02F0B511363ADF800B1A3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B02F0B371363ADF700B1A3A2 /* Project object */;
+}
