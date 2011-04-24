@@ -21,3 +21,8 @@ WHY WOULD I DO THIS?
 ====================
 
 Finder in Snow Leopard or above will show a thumbnail for a movie file; by default it picks a frame or keyframe near the start of the movie. With this tool, you can make sure it always shows a poster image as its icon in Finder, so it's way easier to pick out in a list.
+
+SCREENSHOT
+=============
+
+[![](http://highcaffeinecontent.com/cloud/images/da0e1e1ca88a15e76f71794a27fe721f.png)](http://highcaffeinecontent.com/cloud/images/da0e1e1ca88a15e76f71794a27fe721f.png)
