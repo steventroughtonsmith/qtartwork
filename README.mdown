@@ -12,7 +12,9 @@ HOW TO USE?
 The tool has two modes; an quick in-place mode for QuickTime movies (.mov), and a slow to-disk mode for MP4 files (requires an output file). It should be able to take a JPEG or PNG image as artwork.
 
 Usage:
+
 qtartwork movie.mp4 artwork.[jpg|png] output.mov
+
 qtartwork movie.mov artwork.[jpg|png]
 
 WHY WOULD I DO THIS?
